@@ -1,5 +1,5 @@
 body {
-    background: #170804 url("../img/page_bg.jpg") repeat-x left top;
+    background: #170804 url("page_bg.jpg") repeat-x left top;
     font-family: Palatino, Times, "Times New Roman", serif;
     font-size: 18px;
     line-height: 1.6em;
@@ -16,7 +16,7 @@ body {
     margin: 0.3em auto 0.4em auto;
     max-width: 34em;
     max-height: 33em;
-    background: #e6e6c6 url("../img/title_bg.gif") no-repeat;
+    background: #e6e6c6 url("title_bg.gif") no-repeat;
     border-radius: 20px;
     padding: 0em;
     position: relative;
@@ -90,7 +90,7 @@ body {
 #title .click_message:hover {
     background: #9999ff;
     box-shadow: 0 0 10px #9999ff, 0 0 40px #9999ff, 0 0 80px #9999ff;
-    transition-delay: 1s;    
+    transition-delay: 1s;
 }
 #title .click_message span{
     position: absolute;
@@ -107,7 +107,7 @@ body {
 
 #title .click_message:hover #span1{
     left: 100%;
-    transition: 1s;    
+    transition: 1s;
 }
 
 #span3{
@@ -120,7 +120,7 @@ body {
 
 #title .click_message:hover #span3{
     right: 100%;
-    transition: 1s;  
+    transition: 1s;
     transition-delay: 0.5s;
 }
 
@@ -134,7 +134,7 @@ body {
 
 #title .click_message:hover #span2{
     top: 100%;
-    transition: 1s;  
+    transition: 1s;
     transition-delay: 0.25s;
 }
 
@@ -148,7 +148,7 @@ body {
 
 #title .click_message:hover #span4{
     bottom: 100%;
-    transition: 1s;  
+    transition: 1s;
     transition-delay: 0.75s;
 }
 
@@ -167,7 +167,7 @@ body {
 #content_wrapper {
     max-width: 28em;
     position: relative;
-    background: #e6e6c6 url("../img/text_bg.png") repeat left top;
+    background: #e6e6c6 url("text_bg.png") repeat left top;
     margin: 0.6em auto 1.1em auto;
     padding: 2.8em;
     display: none; /* Shown by Javascript */
@@ -282,7 +282,7 @@ a.click span{
 
 a.click:hover #span1{
     left: 100%;
-    transition: 1s;    
+    transition: 1s;
 }
 
 #span3{
@@ -295,7 +295,7 @@ a.click:hover #span1{
 
 a.click:hover #span3{
     right: 100%;
-    transition: 1s;  
+    transition: 1s;
     transition-delay: 0.5s;
 }
 
@@ -309,7 +309,7 @@ a.click:hover #span3{
 
 a.click:hover #span2{
     top: 100%;
-    transition: 1s;  
+    transition: 1s;
     transition-delay: 0.25s;
 }
 
@@ -323,7 +323,7 @@ a.click:hover #span2{
 
 a.click:hover #span4{
     bottom: 100%;
-    transition: 1s;  
+    transition: 1s;
     transition-delay: 0.75s;
 }
 
